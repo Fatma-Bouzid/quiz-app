@@ -1,0 +1,118 @@
+/* Sidebar */
+.sidebar{
+  display:flex;
+  flex-direction: column;
+  gap: 2.3rem;
+  height: 94vh;
+    
+}
+
+.sidebar-title {
+  width: 153px;
+  height: 45px;
+  top: 43px;
+  left: 61px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 45px;
+  text-align: left;
+  color: rgba(105, 111, 121, 1);
+
+  
+}
+.sidebar-list {
+  gap:20px; 
+  display: flex;
+  flex-direction: column; /* Aligner les éléments verticalement */
+  gap: 20px;
+
+}
+.sidebar-list .item {
+  width: 271px;
+  height: 64px;
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; /* Horizontally centers the content */
+  border-radius: 30px;
+  gap: 20px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+  color:rgba(134, 146, 166, 1);
+
+  
+}
+
+.sidebar-list .item:hover {      
+  background: rgba(134, 146, 166, 1);
+  color: white;
+  border-radius: 30px;
+
+  display: inline-block;
+  text-align: center;
+
+  width: 271px;
+  height: 64px;
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; /* Horizontally centers the content */
+  border-radius: 30px;
+  background: rgba(134, 146, 166, 1);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; /* Horizontally centers the content */
+  border-radius: 30px;
+  background: rgba(134, 146, 166, 1);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.dashboard-item {
+  width: 271px;
+  height: 64px;
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; /* Horizontally centers the content */
+  border-radius: 30px;
+  background: rgba(134, 146, 166, 1);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.dashboard-item > span {
+  width: 114px;
+  height: 30px;
+  top: 150px;
+  left: 126px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+    .sidebar-list-item > a {
+        text-decoration: none;
+        color: #9e9ea4;
+        text-align: center;
+        
+    }
+    .sidebar-list-item > a > .icon {
+      margin-right: 10px; /* Ajoutez cette ligne pour espacer l'icône du texte */
+    }
+    .logout{
+      margin-top: 460px;
+    }
+    
+    /* End Sidebar */
+  
+  

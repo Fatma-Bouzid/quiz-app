@@ -1,0 +1,106 @@
+.content--category {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 images horizontalement */
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.category-container {
+    position: relative;
+}
+
+.imgcategory {
+    width: 235px;
+    height: 172px;
+    top: 269px;
+    left: 366px;
+    gap: 0px;
+    border-radius: 30px ;
+    opacity: 0px;
+   
+
+    box-shadow: 0px 15px 40px 5px rgba(237, 237, 237, 1);
+}
+
+.Medcinesoustitre, .Technologysoustitre, .Agriculturesoustitre {
+    position: absolute; /* Position absolue pour les titres des catégories */
+    bottom: 10px; /* À ajuster selon votre besoin */
+    left: 10px; /* À ajuster selon votre besoin */
+        
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.FeaturedCategory .select-topic {
+    width: 204px;
+    height: 50px;
+    top: 157px;
+    left: 368px;
+    gap: 0px;
+    opacity: 0px;
+    
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 49.5px;
+    color: rgba(105, 111, 121, 1);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.FeaturedCategory .parag {
+    width: 189px;
+    height: 30px;
+    top: 214px;
+    left: 368px;
+    gap: 0px;
+    opacity: 0px;
+    
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(105, 111, 121, 1);
+    text-align: left;
+}
+.button-more {
+    
+    background: rgba(134, 146, 166, 1);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+
+    width: 212px;
+    height: 64px;
+    top: 896px;
+    left: 1166px;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    
+    margin: 30px;
+    margin-right: 50px; /* Marge à droite */
+    float: right; /* Alignement à droite */
+    
+  }
+  

@@ -1,0 +1,102 @@
+.FeaturedCategory {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37.5px;
+    color: rgba(105, 111, 121, 1);
+    margin-left: 30px;
+    display: flex; /* Ajout de Flexbox pour aligner les éléments */
+    align-items: center; /* Centre les éléments verticalement */
+    justify-content: space-between; /* Ajoute de l'espace entre le titre et le lien */
+    
+}
+  
+.Featured-Category {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37.5px;
+    color: rgba(105, 111, 121, 1);
+    margin: 0; /* Supprime les marges par défaut */
+    margin-left:40px; /* Ajustement pour l'espace entre le titre et le lien */
+
+}
+  .viewall-link {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(105, 111, 121, 1);
+    text-decoration: none;
+    cursor: pointer;
+    margin-Right:70px; /* Ajustement pour l'espace entre le titre et le lien */
+  }
+  
+
+.viewall-link:hover {
+    text-decoration: underline;
+}
+.category--content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Permet le retour à la ligne */
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    width: 582px;
+    height: 366px;
+    border-radius: 30px ;
+    gap: 20px;
+    
+
+    
+    
+}
+.imgHistory,
+.imgMedcine,
+.imgTechnology,
+.imgAgriculture {
+    width: 235px;
+    height: 172px;
+    top: 595px;
+    left: 874px;
+    gap: 0px;
+    border-radius: 30px ;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 15px 40px 5px rgba(237, 237, 237, 1);
+    
+}
+
+.image-container {
+    width: 235px; /* Largeur de chaque image */
+    height: 172px; /* Hauteur de chaque image */
+    margin-bottom: 10px; /* Espacement entre chaque ligne */
+    border-radius: 30px;
+    overflow: hidden; /* Assure que les images ne débordent pas */
+    position: relative;
+}
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajuste la taille de l'image pour remplir complètement le conteneur */
+  }
+
+  .image-container p {
+    width: 74px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    
+    
+    
+    position: absolute; /* Position absolue par rapport au conteneur */
+    bottom: 10px; /* Distance du bas */
+    right: 140px; /* Distance de la droite */
+    color: rgba(255, 255, 255, 1);
+  }
+ 

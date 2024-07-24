@@ -1,0 +1,158 @@
+/* card container */
+.profilecontent--container {
+    display: flex;
+    align-items: flex-start;
+    margin: 30px 40px; /* Ajoutez les marges souhaitées */
+  }
+  
+  .Homme {
+    width: 298px;
+    height: 258px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 15px 40px 5px rgba(237, 237, 237, 1);
+    margin-right: 20px; /* Espace entre l'image et les informations de l'utilisateur */
+  }
+  
+  .userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  
+  .loginuser {
+    font-family: Poppins, sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 49.5px;
+    color: rgba(105, 111, 121, 1);
+    margin: 0;
+  }
+  
+  .soustitreloginuser {
+    font-family: Poppins, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28.5px;
+    color: rgba(105, 111, 121, 1);
+    margin: 0;
+  }
+  
+  .timing {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Aligne les items au début horizontalement */
+    align-items: center;
+    margin-top: 80px; /* Espace entre les informations de l'utilisateur et la section de timing */
+  }
+  
+  .itemprofile {
+    display: flex;
+    flex-direction: row; /* Aligne les enfants horizontalement */
+    align-items: center; /* Centre les enfants verticalement */
+    margin: 10px; /* Espace entre les éléments */
+  }
+  
+  .icon {
+    font-size: 24px; /* Taille de l'icône */
+    color: rgba(105, 111, 121, 1); /* Couleur de l'icône */
+    margin-right: 10px; /* Espace entre l'icône et le texte */
+  }
+  
+  .itemtime, .quiztime {
+    margin: 0; /* Supprime l'espace supplémentaire */
+  }
+  
+  .itemtime {
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 43.5px;
+    color: rgba(105, 111, 121, 1);
+  }
+  
+  .quiztime {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(105, 111, 121, 1);
+  }
+  
+.card--container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.card {
+    flex: 1;
+    background: #dde6ed;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.card--cover {
+    background: #fff;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #969393;
+}
+
+.card--title {
+    background: #ffffffc0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #526d82;
+}
+
+.Featured-Category{
+    width: 243px;
+    height: 38px;
+    top: 540px;
+    left: 874px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: left;
+    color: rgba(105, 111, 121, 1);
+
+}
+.deuxieme-content {
+    display: flex;
+    justify-content: space-around; /* Ajuste l'espacement horizontal entre les éléments */
+    align-items: center; /* Centre les éléments verticalement si nécessaire */
+  }
+  .content{
+    width: 1080px;
+    height: 861px;
+    top: 133px;
+    left: 329px;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 15px 40px 5px rgba(237, 237, 237, 1);
+
+  }
